@@ -130,3 +130,19 @@ for x, obj in carDataBase.items():
     print(x)
     for y in obj:
         print(y + ':' + obj[y])
+'''
+{'car1': {'model': 'Toyota', 'date': '2008', 'price': '5.000.000tg'}, 'car2': {'model': 'BMW', 'date': '2020', 'price': '37.000.000tg'}, 'car3': {'model': 'Mitsubishi', 'date': '2013', 'price': '6.340.000tg'}}
+37.000.000tg
+car1
+model:Toyota
+date:2008
+price:5.000.000tg
+car2
+model:BMW
+date:2020
+price:37.000.000tg
+car3
+model:Mitsubishi
+date:2013
+price:6.340.000tg
+'''
